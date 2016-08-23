@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>First Program:联系我</title>
+  <script type="text/javascript" src=scripts/modernizr-1.6.min.js></script>
+  <link rel="stylesheet" media="screen" href="styles/basic.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.gif" alt="Logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">主页</a></li>
+        <li><a href="about.html">关于</a></li>
+        <li><a href="photos.html">图片</a></li>
+        <li><a href="live.html">表格</a></li>
+        <li><a href="contact.html">联系我</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+<h1>联系我们</h1>
+<form method="post" action="submit.html">
+  <fieldset>
+    <p>
+     <label for="name">名字:</label>
+     <input type="text" id="name" name="name" placeholder="你的名字" required="required" />
+    </p>
+    <p>
+     <label for="email">邮箱:</label>
+     <input type="email" id="email" name="email" placeholder="你的电子邮箱" required="required" />
+    </p>
+    <p>
+     <label for="message">留言:</label>
+     <textarea cols="45" rows="7" id="message" name="message" required="required" placeholder="留言给我们"></textarea>
+    </p>
+    <input type="submit" value="提交" />
+   </fieldset>
+</form>
+  </article>
+  <script src="scripts/global.js"></script>
+</body>
+</html>
